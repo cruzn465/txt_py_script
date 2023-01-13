@@ -1,0 +1,43 @@
+
+CLIENT:     	THE HOME DEPOT
+JOB:            	SPRING :30 RADIO
+TITLE:     	Whisper/Ryobi Blower-Mower-Trimmer :30
+ADID:		YHTFD28R6R0
+DATE:         	3/18/2022
+
+
+SFX:		Birds chirping, wind rustling leaves, distant sound of kids playing.
+VO:		*whispering* Do you hear that? The sounds of spring. 
+
+SFX:		Bird call comes in over the mix.
+VO:		*whispering* There’s the birds
+
+SFX: 		Wind blowing through the leaves comes in over the mix.
+VO: 		*whispering* The spring breeze blowing through the leaves
+
+SFX: 		Soft hum of an electric leaf blower.
+VO: 		*whispering* and the RYOBI Whisper Series Blower.
+
+SFX: 		Soft hum of an electric mower.
+VO: 		*whispering* and that’s the new RYOBI Whisper Walk mower.   SFX: 		Louder hum of electric trimmer.
+VO: 		*whispering* and there’s the RYOBI Whisper Series String Trimmer.
+		All with interchangeable lithium ion batteries and gas-like power.
+		It feels like spring at The Home Depot.
+		
+How doers get more done.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
