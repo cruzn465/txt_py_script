@@ -2,6 +2,8 @@ import glob
 import csv
 from tkinter.ttk import Separator
 
+
+# note YHTB-D28R-5056.txt " CLIENT:	THE HOME DEPOT"
 read_files = glob.glob('output/*')
 arr = []
 
