@@ -1,5 +1,6 @@
 import glob
 import csv
+import json
 from tkinter.ttk import Separator
 
 
@@ -9,7 +10,7 @@ arr = []
 
 with open("HD_SpringRadio.csv", mode="w", encoding="utf-8") as outfile:
 
-    w = csv.writer(outfile)
+    #w = csv.writer(outfile)
     count = 0
     for f in read_files:
         if count < 1:
@@ -70,15 +71,20 @@ with open("HD_SpringRadio.csv", mode="w", encoding="utf-8") as outfile:
                 # print(string)
 
             # invoke addToArr fxn
+                with open("sample.json", "w") as outfile:
+                    json.dump(dict, outfile)
+
             addToArr()
 
             infile.close()
         count += 1
 
     # with open(f, "r") as infile:
-    #     if count < 1:
-    #         # print(count)
-    #         print("infile")
-    #         print(infile)
+    # #     if count < 1:
+    # #         # print(count)
+    # #         print("infile")
+    # #         print(infile)
 
-    # w.writerow([line for line in infile])
+    #     w.writerow([line for line in infile])
+
+
