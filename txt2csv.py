@@ -22,13 +22,7 @@ for f in read_files:
 
         # A list of each "line" and use this for step 2 of parsing the string
         lines = data.splitlines(False)
-
-        # print("********data", data)
-        # print("****LEN****", len(lines))
         filt_list = list(filter(lambda str: str != "", lines))
-
-        # print("********filt_list", filt_list)
-        # NEED TO REPLACE ALL EMPTY STRINGS IN lines ARRAY
 
         # FXN that takes the data from each file and adds it to the global array
 
