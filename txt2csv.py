@@ -14,7 +14,8 @@ arr = []
 #w = csv.writer(outfile)
 count = 0
 for f in read_files:
-    if count < 1:
+    if count < 2:
+        print("*********COUNT: ", count)
 
         infile = open(f, 'r')
         data = infile.read()
@@ -22,21 +23,27 @@ for f in read_files:
         # A list of each "line" and use this for step 2 of parsing the string
         lines = data.splitlines(False)
 
-        # print(lines)
+        # print("********data", data)
+        # print("****LEN****", len(lines))
+        filt_list = list(filter(lambda str: str != "", lines))
+
+        # print("********filt_list", filt_list)
+        # NEED TO REPLACE ALL EMPTY STRINGS IN lines ARRAY
 
         # FXN that takes the data from each file and adds it to the global array
+
         def addToArr():
             dict = {}
 
             # i.e.['', '\tTHE HOME DEPOT']
             # Make reusable code and find the line in the list that starts with "CLIENT"
-            clientVal = lines[0].split("CLIENT:")[1]
+            clientVal = filt_list[0].split("CLIENT:")[1]
             dict["Client"] = clientVal
 
-            jobVal = lines[1].split("JOB:")[1]
+            jobVal = filt_list[1].split("JOB:")[1]
             dict["Job"] = jobVal
 
-            titleVal = lines[2].split("TITLE:")[1]
+            titleVal = filt_list[2].split("TITLE:")[1]
             dict["Title"] = titleVal
             # print(dict)
 
