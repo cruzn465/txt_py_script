@@ -31,7 +31,7 @@ for f in read_files:
         sub_comp_res = 0
         # LOOP THRU COMP_STR TO SEE IF ONE EXISTS
         for j in range(len(comp_str)):
-            find_comp_result = data.find(comp_str[i])
+            find_comp_result = data.find(comp_str[j])
             # IF AT LEAST 1 COMP STR EXISTS, ADD TO SUB_COMP_RES
             if find_comp_result != -1:
                 sub_comp_res += 1

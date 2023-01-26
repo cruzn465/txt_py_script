@@ -1,12 +1,501 @@
 [
     {
-        "Client": "\tTHE HOME DEPOT",
-        "Job": "\t:30 L&G Divisional Radio",
-        "Title": "\tSend Weeds Packing/L&G/Roundup :30"
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Divisional Radio",
+        "TITLE": "Send Weeds Packing/L&G/Roundup 30"
     },
     {
-        "Client": "\tTHE HOME DEPOT",
-        "Job": "\tFW14 Drop N\u2019 Bloom",
-        "Title": "\t\u201cDrop, Bloom and Save\u201d "
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW14 Drop N\u2019 Bloom",
+        "TITLE": "\u201cDrop, Bloom and Save\u201d "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW8-9/Majesty Palms",
+        "TITLE": "Hard To Miss/10\" Majesty Palms/$16.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Cozy Up and Grill/Holiday Grills/Traeger-Weber-Nexgrill-Masterbuilt-Kingsford/CS-D/Rev 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT",
+        "JOB": "30 RAID ANT AND ROACH RADIO",
+        "TITLE": "\u201cNobody Says That\u201d"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "D28o FW22 Perennials",
+        "TITLE": "\u201cAgain and Again\u201d "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Longer Days/Memorial Day/Bonnie Plants/3 for $9/May 23 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW16 Memorial Day Ryobi",
+        "TITLE": "\u201cMatch\u201d "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/1 Gallon Perennials/3 for $10 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW7-8 Annuals",
+        "TITLE": "\u201cCanvas\u201d "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/MiracleGro Potting Mix/$8.88 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT",
+        "JOB": " 30 Radio",
+        "TITLE": " L&G Radio/Scotts Bonus S Southern Weed and Feed 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "TITLE": "Off the Menu/L&G/Roundup Bug Destroyer/$9.97 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Canvas/Gallon Annuals/4 for $10 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Network Radio",
+        "TITLE": "Mother's Day Facts/L&G/Laurel Hanging Baskets/$18.98 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Thrive/Roundup Extended 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW10 Bonnie Veggies and Herbs",
+        "TITLE": "\u201cPass the Salad\u201d "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/Vigoro 1 Qt Annuals/4 for $10/Impatiens-Gerbera Daisies 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/Miracle-Gro Potting Mix 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT",
+        "JOB": " 30 Radio",
+        "TITLE": " L&G Radio/4.5\" Annuals/$4.48 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Scotts Turf Builder",
+        "TITLE": "\u201cFor the Better\u201d"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW11 Majesty Palms",
+        "TITLE": "\u201cOutdoors Indoors\u201d "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Fertilizer Radio",
+        "TITLE": "L&G Radio/GAFU/Winterguard/Rev 30    "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": " Pick a Time/L&G Radio/SBF/Bonnie/4 for $10/125 Varieties 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Spot Radio \u2013",
+        "TITLE": "Curb Appeal/L&G Radio/Earthgro/4 for $10 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Divisonal Radio",
+        "TITLE": "Key Point/L&G/Roundup Weed and Grass Killer/$7.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 RADIO",
+        "TITLE": "Anywhere/L&G Radio/10\" Ferns/$9.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Divisional Radio",
+        "TITLE": "Rethink Mulch/Vigoro/5 for $10/March 2 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW5-6 Annuals",
+        "TITLE": "Canvas/L&G/3.5\" Annuals/5 for $5 30 "
+    },
+    {
+        "CLIENT": " THE HOME DEPOT",
+        "JOB": " 30 Radio",
+        "TITLE": " The Joy of Saving/Father's Day Radio/Kingsford Charcoal/$9.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "DNA/L&G Radio/Vigoro Quart Annuals/$4.48 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW6,7 Flowers (Annuals)",
+        "TITLE": "Canvas/L&G Radio/Petunias/12 pack Annuals/$9.98 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW13 1-Qt. Vigoro Annuals",
+        "TITLE": "Rave Reviews/L&G/1 Qt Vigoro Annuals/4 for $10/Save $5 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT",
+        "JOB": " 30 Radio",
+        "TITLE": " L&G Radio/1 Gallon Shrubs/Rhododendron-Blueberries-"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Fatten Up/L&G/Scotts Bonus S-Scotts Turf Builder 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Mow Down/Tractor/Best Brands-John Deere-Toro-Ariens 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/Vigoro 1 Qt Annuals/4 for $10/Gerbera Daisies-Verbena 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Thrive/Roundup Extended/AK+HI 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW7-8 / Earthgro Mulch",
+        "TITLE": "L&G Radio/Earthgro Mulch/3 for $10/Alaska 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Outdoors Indoors/L&G/10\" Assorted Palms/$12.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Longer Days/Memorial Day/Nexgrill/$249 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Flash/Northampton Hanging Baskets/Save $3/$6.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Divisional Radio",
+        "TITLE": "Backyard/L&G/Bonnie/5 for $10/50 varieties 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Fresh Air/L&G/Pine Bark Nuggets/3 for $12 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT",
+        "JOB": " 30 Radio",
+        "TITLE": " L&G Radio/Snap Spreaders/$29.98 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Underneath/L&G Radio/Vigoro Mulch/5 for $10 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/6 Pack Annuals/4 for $5 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/18 Pack Annuals/$7.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "Ryobi Jet Fan Blower",
+        "TITLE": "Cut the Cord/Ryobi/Jet Fan Blower/$119 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/2 Gallon Roses/$5.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Luck/L&G Radio/4\" Organic Vegetables/5 for $15 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Blanks/L&G Radio/Pennington One Step/33% off 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/Ortho/$6.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Right Where You Want It/L&G Radio/1 Gallon Annuals 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Divisional Radio",
+        "TITLE": "Proven Performers/L&G/4.5\" Annuals/Petunias-Marigolds-Impatiens/5 for $5 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW4 10\u201d Indoor Tropical Plants",
+        "TITLE": "Spring In/L&G/10\" Tropical Plants/$10.88 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW5 Vigoro Colored Mulch",
+        "TITLE": "From the Ground Up/L&G/Vigoro Mulch/6 for $10 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Divisional Radio",
+        "TITLE": "Proven Performers/L&G Radio/4\" Annuals/Vinca-Begonias-Petunias/4 for $5 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Forget and Forgive/L&G/Quart Rio Dipladenia/3 for $12 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW3 Bonnie Veggies",
+        "TITLE": "Pass the Salad/L&G/4.5\" Bonnie/Strawberry-Parsley/$3.78 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Brinkmann Radio",
+        "TITLE": "Back Burner/Grills/Brinkmann/$139 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Coming In Waves/L&G Radio/4 pack Petunia Wave/2 for $8 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Covering Ground/L&G/Labor Day/Earthgro Mulch/5 for $10 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT",
+        "JOB": " 30 Radio",
+        "TITLE": " Drop-N-Bloom/L&G/$9.98 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Three Steps/Scotts Weed and Feed-Scotts Lawn Food/20%/May 21 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Can't Wait/L&G Radio/3 Gallon Organic Vegetables/EDLP 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW3, 4 Bonnie Harvest Guarantee",
+        "TITLE": "Something Else/L&G/Bonnie/Miracle Gro Garden Soil/2 for $12 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Divisional Radio",
+        "TITLE": "Proven Performers/L&G Radio/8 pack Annuals/Marigolds-Impatiens/$2.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Divisional Radio",
+        "TITLE": "Proven Performers/L&G/12 pack Annuals/Petunias-Marigolds/$7.88 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/1 Gallon Shrubs/3 for $10 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW4 Bayer Advanced 3-In-1 Weed and Feed",
+        "TITLE": "No Vacancy/L&G/Bayer Advanced/$24.98 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/Bonnie Vegetables and Herbs/BOGO 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/BOGO Annuals 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "They're Back/L&G Radio/Quart Perennials/5 for $10 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/Ortho/Home Defense Max-Bug-B-Gon 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Network Radio; SOUTH ",
+        "TITLE": "Off Your Plate/L&G Radio/Livegoods/2 gallon Perennials/$9.88 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT",
+        "JOB": " 30 Radio",
+        "TITLE": " L&G Radio/Scotts Turf Builder Weed and Feed 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Win Win Win/L&G Radio/Ortho+Roundup 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "DNA/L&G Radio/Vigoro Quart Annuals/$4.98 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW6,7 Flowers (Annuals)",
+        "TITLE": "Canvas/L&G Radio/4 1/2\" Annuals/$1.12 each 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW5-6 Annuals",
+        "TITLE": "Canvas/L&G/Vigoro 1 Qt Annuals/3 for $10 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Ryobi Trimmer Radio",
+        "TITLE": "No Place/L&G/Ryobi/40v Expand-It Trimmer/$169 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT ",
+        "JOB": " 30 Radio",
+        "TITLE": " L&G Radio/6 Pack Annuals/4 for $10 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Divisional Radio",
+        "TITLE": "Spill Over/L&G/12\" Northampton Color Bowl/$9.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "L&G Radio/1 Quart Perennials 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT ",
+        "JOB": " 30 RADIO ",
+        "TITLE": " Spread the Word/L&G Radio/Scotts Turf Builder Thick'R/$19.98 30"
+    },
+    {
+        "CLIENT": " THE HOME DEPOT",
+        "JOB": " 30 Radio",
+        "TITLE": " L&G Radio/6\" Pentas/4 for $10 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "Pro Razor-Back Landscaping Tools",
+        "TITLE": "Got Your Back/L&G Radio/5 or more Razor-Back Tools/20% off 30 "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Radio",
+        "TITLE": "Proud and Protected/RWB/Earthgro Mulch/3 for $10/Rev 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Divisional Radio",
+        "TITLE": "Wake Up/L&G/1 Quart Perennials/Phlox-Dianthus-Bellis/4 for $10 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Fertilizer Radio",
+        "TITLE": "L&G Radio/GAFU/Scotts Starter/Rev 30    "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW6,7 Flowers (Annuals)",
+        "TITLE": "Canvas/L&G Radio/Marigolds-Begonias-Petunias/4\" Annuals/2 for $1 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW13 10-Inch Boston Fern Hanging Basket",
+        "TITLE": "Anywhere Everywhere/L&G/10\" Boston Ferns/$8.88 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Digital Radio",
+        "TITLE": "Double Team/Swiffer 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Divisional Radio",
+        "TITLE": "Wake Up/L&G/1 Quart Perennials/Phlox-Dianthus-Bellis/4 for $10 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 RADIO",
+        "TITLE": "No Stone Unturned/L&G/Vigoro Bagged Rocks/2 for $5 30"
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW31 Scotts Turf Builder EZ Seed",
+        "TITLE": "\u201cSpread the Word\u201d "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "FW10 Annuals",
+        "TITLE": "\u201cCanvas\u201d "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 Fertilizer Radio",
+        "TITLE": "L&G Radio/GAFU/Bonus S/Rev 30    "
+    },
+    {
+        "CLIENT": "THE HOME DEPOT",
+        "JOB": "30 L&G Network Radio",
+        "TITLE": "Mother's Day Facts/L&G/Laurel Hanging Baskets/$21.98 30"
     }
 ]

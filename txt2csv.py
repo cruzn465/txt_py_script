@@ -8,20 +8,24 @@ from tkinter.ttk import Separator
 # note YHTB-D28R-5056.txt " CLIENT:	THE HOME DEPOT"
 read_files = glob.glob('output/*')
 arr = []
+# NEEDS BETTER NAMING CONVENTIONS
+each_str = ["CLIENT", "JOB", "TITLE"]
+comp_str = ["ANNCR", "ANNC", "VO", "ALT", "ED"]
 
 # with open("HD_SpringRadio.csv", mode="w", encoding="utf-8") as outfile:
 
 #w = csv.writer(outfile)
 count = 0
 for f in read_files:
-    if count < 2:
-        print("*********COUNT: ", count)
+    if count < 100:
+        # print("*********COUNT: ", count)
 
         infile = open(f, 'r')
         data = infile.read()
 
         # A list of each "line" and use this for step 2 of parsing the string
         lines = data.splitlines(False)
+        # print(lines)
         filt_list = list(filter(lambda str: str != "", lines))
 
         # FXN that takes the data from each file and adds it to the global array
@@ -29,20 +33,29 @@ for f in read_files:
         def addToArr():
             dict = {}
 
+            # LOOP THRU EACH_STR AND FOR EACH, LOOP THRU FILT_LINES AND FIND THE ONE THAT STARTS WITH EACH_STR[i]
+            for i in range(len(each_str)):
+                for j in range(len(filt_list)):
+                    if filt_list[j].find(each_str[i]) != -1:
+                        val = filt_list[j].split(each_str[i])[1]
+                        dict[each_str[i]] = val.replace(
+                            ":", "").replace("\t", "")
+                        break
+
             # i.e.['', '\tTHE HOME DEPOT']
             # Make reusable code and find the line in the list that starts with "CLIENT"
-            clientVal = filt_list[0].split("CLIENT:")[1]
-            dict["Client"] = clientVal
+            # clientVal = filt_list[0].split("CLIENT:")[1]
+            # dict["Client"] = clientVal
 
-            jobVal = filt_list[1].split("JOB:")[1]
-            dict["Job"] = jobVal
+            # jobVal = filt_list[1].split("JOB:")[1]
+            # dict["Job"] = jobVal
 
-            titleVal = filt_list[2].split("TITLE:")[1]
-            dict["Title"] = titleVal
+            # titleVal = filt_list[2].split("TITLE:")[1]
+            # dict["Title"] = titleVal
             # print(dict)
 
             arr.append(dict)
-            print(arr)
+            # print(arr)
 
             # seps = ["CLIENT:", "JOB:", "TITLE:", "JOB#",
             #         "SLATE #:", "DATE:", "ANNCR:", "LEGAL:"]
