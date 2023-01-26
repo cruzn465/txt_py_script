@@ -41,20 +41,8 @@ for f in read_files:
                         dict[each_str[i]] = val.replace(
                             ":", "").replace("\t", "")
                         break
-
-            # i.e.['', '\tTHE HOME DEPOT']
-            # Make reusable code and find the line in the list that starts with "CLIENT"
-            # clientVal = filt_list[0].split("CLIENT:")[1]
-            # dict["Client"] = clientVal
-
-            # jobVal = filt_list[1].split("JOB:")[1]
-            # dict["Job"] = jobVal
-
-            # titleVal = filt_list[2].split("TITLE:")[1]
-            # dict["Title"] = titleVal
-            # print(dict)
-
-            arr.append(dict)
+            if len(dict) == 4:
+                arr.append(dict)
             # print(arr)
 
             # seps = ["CLIENT:", "JOB:", "TITLE:", "JOB#",
