@@ -19,7 +19,7 @@ comp_str = ["ANNCR", "ANNC", "VO", "ALT", "ED"]
 # w = csv.writer(outfile)
 count = 0
 for f in read_files:
-    if count < 10:
+    if count < 400:
         # print("*********COUNT: ", count)
         infile = open(f, 'r')
         data = infile.read()
@@ -58,20 +58,21 @@ for f in read_files:
 
             # DELETE LEGAL
             last_i = len(filt_list)-1
-            if filt_list[last_i].find("LEGAL") != -1:
-                filt_list.pop(last_i)
+            if len(filt_list) != 0:
+                if filt_list[last_i].find("LEGAL") != -1:
+                    filt_list.pop(last_i)
 
-            # JOIN THE FILT_LIST, SEPARATE THE CURR_COMP AND ADD TO DICT UNDER COMPLETION
-            joined_str = "".join(filt_list)
-            val_str = joined_str.split(curr_comp)[1]
+                # JOIN THE FILT_LIST, SEPARATE THE CURR_COMP AND ADD TO DICT UNDER COMPLETION
+                joined_str = "".join(filt_list)
+                val_str = joined_str.split(curr_comp)[1]
 
-            if val_str.find(":") != -1:
-                val_str = val_str.replace(":", "")
-            if val_str.find("\t") != -1:
-                val_str = val_str.replace("\t", "")
+                if val_str.find(":") != -1:
+                    val_str = val_str.replace(":", "")
+                if val_str.find("\t") != -1:
+                    val_str = val_str.replace("\t", "")
 
-            # ADD TO DICT:
-            dict["COMPLETION"] = " " + val_str
+                # ADD TO DICT:
+                dict["COMPLETION"] = " " + val_str
             # print(val_str)
             if len(dict) == 2:
                 arr.append(dict)
