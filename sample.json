@@ -11,3 +11,8 @@
 {
     "prompt": "Title:Send Weeds Packing/L&G/Roundup 30\n",
 }
+
+{
+    "prompt": "Subject: Update my address\nFrom:Joe Doe\nTo:support@ourcompany.com\nDate:2021-06-03\nContent:Hi,\nI would like to update my billing address to match my delivery address.\n\nPlease let me know once done.\n\nThanks,\nJoe\n\n###\n\n",
+    "completion": " 4"
+}

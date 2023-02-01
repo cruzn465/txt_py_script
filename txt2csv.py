@@ -37,8 +37,8 @@ for f in read_files:
                 for j in range(len(filt_list)):
                     if filt_list[j].find(each_str[i]) != -1:
                         val = filt_list[j].split(each_str[i])[1]
-                        dict[each_str[i]] = val.replace(
-                            ":", "").replace("\t", "")+"\n"
+                        dict["prompt"] = val.replace(
+                            ":", "").replace("\t", "")+"\n\n###\n\n"
                         break
 
             # COUNT IS THE AMOUNT OF TIMES A COMP_STR APPEARS
@@ -72,7 +72,7 @@ for f in read_files:
                     val_str = val_str.replace("\t", "")
 
                 # ADD TO DICT:
-                dict["COMPLETION"] = " " + val_str
+                dict["completion"] = " " + val_str + "END"
             # print(val_str)
             if len(dict) == 2:
                 arr.append(dict)
