@@ -7,8 +7,9 @@ from tkinter.ttk import Separator
 
 
 # note YHTB-D28R-5056.txt " CLIENT:	THE HOME DEPOT"
-# read_files = glob.glob('output/*')
-read_files = glob.glob('outliers/*')
+read_files = glob.glob('output/*')
+# MADE A FOLDER TO TEST OUTLIERS
+# read_files = glob.glob('outliers/*')
 
 arr = []
 # NEEDS BETTER NAMING CONVENTIONS
@@ -22,7 +23,7 @@ comp_str = ["ANNCR", "ANNC", "VO", "ALT", "ED"]
 # w = csv.writer(outfile)
 count = 0
 for f in read_files:
-    if count < 100:
+    if count < 400:
         # print("*********COUNT: ", count)
         infile = open(f, 'r')
         # print(infile)
@@ -30,10 +31,11 @@ for f in read_files:
 
         # A list of each "line" and use this for step 2 of parsing the string
         lines = data.splitlines(False)
+        # FILTERS OUT "" AND " "
         filt_list1 = list(filter(lambda str: str != "", lines))
         filt_list = list(filter(lambda str: str != " ", filt_list1))
 
-        print("FILT_LIST", filt_list)
+        # print("FILT_LIST", filt_list)
 
         # FXN that takes the data from each file and adds it to the global array
         def addToArr():
