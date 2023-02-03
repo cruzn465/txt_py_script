@@ -1,0 +1,587 @@
+{
+    "data": [
+        {
+            "created_at": 1672943408,
+            "fine_tuned_model": "curie:ft-bbdo-ny-2023-01-05-18-45-14",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-1AV9PVMgu4il85L9G0qUIddd",
+            "model": "curie",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 3128,
+                    "created_at": 1672944315,
+                    "filename": "compiled_results.csv",
+                    "id": "file-FWWWNx9jvtk20uCHByKxQcGZ",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 7367,
+                    "created_at": 1672943407,
+                    "filename": "hd_prepared.jsonl",
+                    "id": "file-Igk44crGiwpYlxDjw2lGAwRY",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1672944316,
+            "validation_files": []
+        },
+        {
+            "created_at": 1672944140,
+            "fine_tuned_model": "davinci:ft-bbdo-ny-2023-01-05-18-55-37",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-tCXgI9oHum3Gt8t56Txh8Sns",
+            "model": "davinci",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 3060,
+                    "created_at": 1672944938,
+                    "filename": "compiled_results.csv",
+                    "id": "file-jEk9jLdovSsC3HANTZYosq8W",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 7367,
+                    "created_at": 1672944140,
+                    "filename": "hd2_prepared.jsonl",
+                    "id": "file-Id1A33Q3b1L7I8DNtToo3LCG",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1672944939,
+            "validation_files": []
+        },
+        {
+            "created_at": 1672944631,
+            "fine_tuned_model": "davinci:ft-bbdo-ny-2023-01-05-19-04-45",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-lmbQ8ewPIlvizCEG3hN8NjZ7",
+            "model": "davinci",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 3055,
+                    "created_at": 1672945486,
+                    "filename": "compiled_results.csv",
+                    "id": "file-ErX7NmqfPiYzfOTqICiCiUjZ",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 7367,
+                    "created_at": 1672944631,
+                    "filename": "hd2_prepared.jsonl",
+                    "id": "file-Re7s15T2cKc6e9Fp2DzzTjDi",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1672945487,
+            "validation_files": []
+        },
+        {
+            "created_at": 1674771429,
+            "fine_tuned_model": "curie:ft-bbdo-ny-2023-01-26-22-51-15",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-OQdX2HXY6MAM5nQdx6bslwr7",
+            "model": "curie",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 3128,
+                    "created_at": 1674773483,
+                    "filename": "compiled_results.csv",
+                    "id": "file-RJWqjdv7mLdoJrEYMxVEmkoi",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 6509,
+                    "created_at": 1674771429,
+                    "filename": "/content/drive/MyDrive/hd2_prepared (1).jsonl",
+                    "id": "file-cp59DnOfRh5KCpTI9Pi5d1lh",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1674773487,
+            "validation_files": []
+        },
+        {
+            "created_at": 1674772378,
+            "fine_tuned_model": "curie:ft-bbdo-ny-2023-01-26-23-41-41",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-8assOUwoBAqI4lb1wg87wEev",
+            "model": "curie",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 3073,
+                    "created_at": 1674776501,
+                    "filename": "compiled_results.csv",
+                    "id": "file-fEbrQ3TZGJE2mj4RnZd2ViKn",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 6957,
+                    "created_at": 1674772375,
+                    "filename": "/content/drive/MyDrive/hd3_prepared.jsonl",
+                    "id": "file-v2YPrUeX88dMjyoIE3jvmsAp",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1674776505,
+            "validation_files": []
+        },
+        {
+            "created_at": 1674773815,
+            "fine_tuned_model": "davinci:ft-bbdo-ny-2023-01-26-23-09-01",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-mEAzwg2e1fy2jdxkUFLHeXGV",
+            "model": "davinci",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 3098,
+                    "created_at": 1674774544,
+                    "filename": "compiled_results.csv",
+                    "id": "file-OJisgPkU8lQ3iTQtX1XEwVps",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 6957,
+                    "created_at": 1674773811,
+                    "filename": "/content/drive/MyDrive/hd4_prepared.jsonl",
+                    "id": "file-biWnjIyrCuZ3Yv40IAaZunvV",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1674774547,
+            "validation_files": []
+        },
+        {
+            "created_at": 1674776028,
+            "fine_tuned_model": "davinci:ft-bbdo-ny-2023-01-26-23-44-20",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-g3d3jJj0GG1nXGyMetBIFRra",
+            "model": "davinci",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 3044,
+                    "created_at": 1674776661,
+                    "filename": "compiled_results.csv",
+                    "id": "file-rPTfvANZY7ZtoFDPDfG5OpTj",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 6890,
+                    "created_at": 1674776028,
+                    "filename": "/content/drive/MyDrive/hd5_prepared.jsonl",
+                    "id": "file-Kwz6IJ3gmNi271ye7UALnTtj",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1674776662,
+            "validation_files": []
+        },
+        {
+            "created_at": 1674776817,
+            "fine_tuned_model": "davinci:ft-bbdo-ny-2023-01-26-23-56-27",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-0ppQRgQ4aljGAj86yzoDZoow",
+            "model": "davinci",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 3007,
+                    "created_at": 1674777388,
+                    "filename": "compiled_results.csv",
+                    "id": "file-o5YbOzPUOjN6aA2KsmHLkiSa",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 7771,
+                    "created_at": 1674776817,
+                    "filename": "/content/drive/MyDrive/hd6_prepared.jsonl",
+                    "id": "file-CP3BmvaKDSKTbFXjrmgBV8DV",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1674777390,
+            "validation_files": []
+        },
+        {
+            "created_at": 1674858209,
+            "fine_tuned_model": "davinci:ft-bbdo-ny-2023-01-27-22-53-47",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-lGXX4buzICxjJ2zgXwbklT6J",
+            "model": "davinci",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 223558,
+                    "created_at": 1674860029,
+                    "filename": "compiled_results.csv",
+                    "id": "file-Ot0ycqyMTUb2iWnuONLrQcUf",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 524236,
+                    "created_at": 1674858209,
+                    "filename": "/content/drive/MyDrive/hd11_prepared.jsonl",
+                    "id": "file-a9HQpfgWQ2TtXCi94mmjqy7U",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1674860030,
+            "validation_files": []
+        },
+        {
+            "created_at": 1675293721,
+            "fine_tuned_model": "davinci:ft-bbdo-ny-2023-02-01-23-39-53",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-I9SWrt4qbQp02PFmbg5KSlgO",
+            "model": "davinci",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 88332,
+                    "created_at": 1675294794,
+                    "filename": "compiled_results.csv",
+                    "id": "file-ZV9mui86JJnUkikV7Gm1bUnR",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 213639,
+                    "created_at": 1675293720,
+                    "filename": "/content/drive/MyDrive/output_prepared.jsonl",
+                    "id": "file-ZSTS7veKBH3AqiQDwaaMheAZ",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1675294795,
+            "validation_files": []
+        },
+        {
+            "created_at": 1675295178,
+            "fine_tuned_model": "davinci:ft-bbdo-ny-2023-02-02-00-19-39",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-soZ92JljP2KQ9to0VqKkJYYP",
+            "model": "davinci",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 88333,
+                    "created_at": 1675297181,
+                    "filename": "compiled_results.csv",
+                    "id": "file-KVNv6DL3WAuU3KDMYqZipS9l",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 214432,
+                    "created_at": 1675295177,
+                    "filename": "/content/drive/MyDrive/output_prepared.jsonl",
+                    "id": "file-TPZk900w878WycwpywQobmAG",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1675297181,
+            "validation_files": []
+        },
+        {
+            "created_at": 1675368177,
+            "fine_tuned_model": "curie:ft-bbdo-ny-2023-02-02-21-02-26",
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-0bOWGj4L68561i12Txr9HtHU",
+            "model": "curie",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [
+                {
+                    "bytes": 88078,
+                    "created_at": 1675371746,
+                    "filename": "compiled_results.csv",
+                    "id": "file-QOoZz0YiVtyI0mSLPwwCVeol",
+                    "object": "file",
+                    "purpose": "fine-tune-results",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "status": "succeeded",
+            "training_files": [
+                {
+                    "bytes": 188832,
+                    "created_at": 1675368177,
+                    "filename": "/content/drive/MyDrive/output_open_prepared.jsonl",
+                    "id": "file-ENQZvDe0qG8U4VungR8u6I1V",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1675371747,
+            "validation_files": []
+        },
+        {
+            "created_at": 1675373256,
+            "fine_tuned_model": null,
+            "hyperparams": {
+                "batch_size": 1,
+                "learning_rate_multiplier": 0.1,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-Rj4HVKjKLCsGBWQMW34AxSF5",
+            "model": "curie",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [],
+            "status": "pending",
+            "training_files": [
+                {
+                    "bytes": 213708,
+                    "created_at": 1675373256,
+                    "filename": "/content/drive/MyDrive/output_open_prepared.jsonl",
+                    "id": "file-IbohCeUd3Jvbc3ujkysui3pc",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1675373382,
+            "validation_files": []
+        },
+        {
+            "created_at": 1675373701,
+            "fine_tuned_model": null,
+            "hyperparams": {
+                "batch_size": null,
+                "learning_rate_multiplier": null,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-3uWBE7Fyo6HPo9GbVJT0ELBA",
+            "model": "curie",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [],
+            "status": "cancelled",
+            "training_files": [
+                {
+                    "bytes": 188832,
+                    "created_at": 1675373700,
+                    "filename": "/content/drive/MyDrive/output_open_prepared.jsonl",
+                    "id": "file-b80Q2ytWPivrjJiSzBeUZDmM",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1675373739,
+            "validation_files": []
+        },
+        {
+            "created_at": 1675373803,
+            "fine_tuned_model": null,
+            "hyperparams": {
+                "batch_size": null,
+                "learning_rate_multiplier": null,
+                "n_epochs": 4,
+                "prompt_loss_weight": 0.01
+            },
+            "id": "ft-jTqSKI3gWUYnONJjHcaPrFAE",
+            "model": "curie",
+            "object": "fine-tune",
+            "organization_id": "org-zN6PNGUjOdoSLz7EzRcBYsJT",
+            "result_files": [],
+            "status": "pending",
+            "training_files": [
+                {
+                    "bytes": 188832,
+                    "created_at": 1675373802,
+                    "filename": "/content/drive/MyDrive/output_open_prepared.jsonl",
+                    "id": "file-givF2F7MCwiJPNrT2qgZ3Ynw",
+                    "object": "file",
+                    "purpose": "fine-tune",
+                    "status": "processed",
+                    "status_details": null
+                }
+            ],
+            "updated_at": 1675373803,
+            "validation_files": []
+        }
+    ],
+    "object": "list"
+}
